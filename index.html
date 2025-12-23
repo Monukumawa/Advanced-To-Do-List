@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List :</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href = "image.png">
+</head>
+<body>
+
+  <h1>To-Do List :-</h1>
+
+  <!-- Add Task -->
+  <div class="task-form">
+    <input type="text" id="title" placeholder="Task name">
+    <input type="date" id="startDate">
+    <input type="date" id="endDate">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <button onclick="filterTasks('all')">All</button>
+    <button onclick="filterTasks('today')">Today</button>
+    <button onclick="filterTasks('week')">This Week</button>
+  </div>
+  <h2>Active Tasks</h2>
+  <div id="activeTasks"></div>
+
+  <h2>Remaining / Overdue Tasks</h2>
+  <div id="remainingTasks"></div>
+
+  <h2>Completed Tasks</h2>
+  <div id="completedTasks"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

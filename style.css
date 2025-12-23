@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #c27e7e;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-top: 20px;
+}
+
+.task-form input, button {
+  padding: 8px;
+  margin: 7px;
+}
+
+.filters button {
+  margin-right: 10px;
+}
+
+.task {
+  background: rgb(165, 201, 238);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 12px;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.green {
+  background: #4caf50;
+}
+
+.red {
+  background: #f44336;
+}
+
+.task-buttons button {
+  margin-right: 5px;
+}
